@@ -1,0 +1,66 @@
+/* App.css (CSS for styling) */
+
+.buy-now-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .product-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .product-details {
+    width: 40%;
+  }
+  
+  .product-details h2 {
+    font-size: 1.5rem;
+  }
+  
+  .product-rating {
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .product-info {
+    margin: 10px 0;
+  }
+  
+  .color-options {
+    margin-top: 10px;
+  }
+  
+  .color-options span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .color-options span.selected {
+    border: 2px solid #333; /* You can customize the selected color border */
+  }
+  
+  .product-actions {
+    margin-top: 20px;
+  }
+  
+  .delivery-timeline {
+    margin-top: 20px;
+  }
+  
+  .share-button {
+    margin-top: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

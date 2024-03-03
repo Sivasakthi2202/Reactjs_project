@@ -1,0 +1,75 @@
+.sub-comp6 h3{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid whitesmoke;
+}
+.cart2{
+    display: flex;
+    margin-top: 50px;
+    text-align: left;
+    border-bottom: 1px solid whitesmoke;
+}
+/* ---------------comp6-cart12--------------------------*/
+.comp6-cart12{
+    border: 1px solid white;
+    margin-left: 20px;
+    padding: 10px;
+    width: 60%;
+}
+.comp6-cart12 span{
+    color: gray;
+    font-size: 14px;
+}
+.comp6-cart12 button{
+    border: none;
+    width: 20%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.comp6-cart12 p{
+    font-size: 14px;
+}
+/*-------------------------------comp6-cart13------------------------ */
+.comp6-cart13{
+    border: 1px solid white;
+    margin-left: 20px;
+    padding: 10px;
+    width: 35%;
+}
+.comp6-cart13 span{
+    color: gray;
+    font-size: 14px;
+}
+.comp6-cart13 button{
+    border: none;
+    width: 20%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}.comp6-cart13 p{
+    font-size: 14px;
+}
+/*-------------------------------comp6-cart14------------------------ */
+.comp6-cart14{
+    border: 1px solid white;
+    margin-left: 20px;
+    padding: 10px;
+    width: 35%;
+}
+.comp6-cart14 span{
+    color: gray;
+    font-size: 14px;
+}
+.comp6-cart14 button{
+    border: none;
+    width: 20%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.comp6-cart14 p{
+    font-size: 14px;
+}

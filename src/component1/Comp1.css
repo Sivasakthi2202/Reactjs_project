@@ -1,0 +1,126 @@
+.main{
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 35px;
+    text-align: left;
+}
+.first{
+    border: 1px solid rgb(239, 238, 238);
+    width: 25%;
+    height: 280%;
+    margin-top: 50px;
+    text-align: left;
+    background-color: white;
+    margin: 30px;
+    margin-left: 35px;
+    margin-top: 30px;
+    transition: transform .2s; /* Animation*/
+}
+.first:hover{
+    background-color: whitesmoke;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+.first img{
+    width:85%;
+    margin: 0px;
+    padding-bottom: 24px;
+}
+.first h3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.first a{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.first a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* ---------------------------second-------------------------------------------- */
+.second{
+    border: 1px solid rgb(239, 238, 238);
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 32%;
+    height: 10%;
+    transition: transform .2s; /* Animation*/
+}
+.second:hover{
+    background-color: whitesmoke;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.second h3{
+    text-align: left;
+    margin-left: 20px;
+}
+.sec{
+    display: flex;
+    margin-left: 0px;
+}
+.sec2{
+    display: flex;
+    margin-left:0px
+}
+.subsec1{
+    margin-top: 20px;
+    margin-left: 15px;
+    /* margin-left: 20px; */
+}
+.subsec1 img:hover{
+    border: 2px solid black;
+}
+.subsec2{
+    /* margin-left:20px; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.subsec2 img:hover{
+    border: 2px solid black;
+}
+.subsec22{
+    margin-top:0px;
+    margin-left: 20px;
+    /* margin-left: 20px; */
+}
+.subsec22 img:hover{
+    border: 2px solid black;
+}
+.subsec21{
+    margin-top:0px;
+    margin-left: 15px;
+    /* margin-left: 20px; */
+}
+.subsec21 img:hover{
+    border: 2px solid black;
+}
+/* ---------------------------third------------------------- */
+.third{
+    border: 1px solid rgb(239, 238, 238);
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 32%;
+    height: 10%;
+    transition: transform .2s; /* Animation*/
+}
+.third:hover{
+    background-color: whitesmoke;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* -----------------------------frames------------------------------- */
+.frames{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.frames iframe{
+    width: 90%;
+    height: 500px;
+}

@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar1 {
+  position: absolute;
+  top: 0%; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  /* background-color: rgb(46, 45, 45); */
+  width: 100%;
+  color: white;
+  height: 35px;
+  background-color: rgb(3, 3, 72);
+
+}
+ .navbar1 a{
+  margin-right: 30px;
+  cursor: pointer;
+  color:white;
+  font-size: 18px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar1 a:hover{
+  border-bottom: 2px solid red;
+ 
+  font-size: 19px;
+ 
+}

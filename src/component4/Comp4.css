@@ -1,0 +1,405 @@
+ .comp4{
+      display: flex;
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+  }
+  #sidebar {
+    height: 100%;
+    width: 400px;
+    margin-top: 100px;
+    background-color: #1b1c1d;
+  }
+  #sidebar a:hover{
+      background-color: #4f5962;
+  }
+
+  #sidebar a {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #d1d8e0;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #4f5962;
+  }
+  .comp4-cart{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comp6{
+    display: flex;
+  }
+  .comp6-first{
+    border: 1px solid white;
+    margin: 20px;
+    width: 22%;
+    height: 75%;
+    text-align: left;
+    margin-top: 9%;
+    margin-left: 40px;
+    background-color: white;
+    transition: transform .2s; /* Animation*/
+  }
+  .comp6-first:hover{
+    background-color: white;
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .comp6-first img{
+    margin-top: 10px;
+    width: 70%;
+    height: 200px;
+    
+  }
+  .comp6-first h6{
+    margin-left: 10px;
+    color: rgb(0, 149, 255);
+  }
+  .comp6-first p{
+    margin-left: 10px;
+  }
+  .comp6-first button{
+    margin-left: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 5px;
+  }
+  .comp6-first h4{
+    margin-left: 10px;
+  }
+  .comp6-first span{
+    color: green;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    font-weight: bold;
+  }
+  /* second */
+  .comp6-second{
+    border: 1px solid white;
+    margin-right: 20px;
+    width: 22%;
+    height: 75%;
+    text-align: left;
+    margin-top: 9%;
+    background-color: white;
+    transition: transform .2s; /* Animation*/
+  }
+  .comp6-second:hover{
+    background-color: white;
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .comp6-second img{
+    margin-top: 10px;
+    width: 70%;
+    height: 200px;
+    
+  }
+  .comp6-second h6{
+    margin-left: 10px;
+    color: rgb(0, 149, 255);
+  }
+  .comp6-second p{
+    margin-left: 10px;
+  }
+  .comp6-second button{
+    margin-left: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 5px;
+  }
+  .comp6-second h4{
+    margin-left: 10px;
+  }
+  .comp6-second span{
+    color: green;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    font-weight: bold;
+  }
+  /* third */
+  .comp6-third{
+    border: 1px solid white;
+    margin-right: 20px;
+    width: 22%;
+    height: 75%;
+    text-align: left;
+    margin-top: 9%;
+    background-color: white;
+    transition: transform .2s; /* Animation*/
+  }
+  .comp6-third:hover{
+    background-color: white;
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .comp6-third img{
+    margin-top: 10px;
+    width: 70%;
+    height: 200px;
+    
+  }
+  .comp6-third h6{
+    margin-left: 10px;
+    color: rgb(0, 149, 255);
+  }
+  .comp6-third p{
+    margin-left: 10px;
+  }
+  .comp6-third button{
+    margin-left: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 5px;
+  }
+  .comp6-third h4{
+    margin-left: 10px;
+  }
+  .comp6-third span{
+    color: green;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    font-weight: bold;
+  }
+  /* fourth */
+  .comp6-four{
+    border: 1px solid white;
+    margin-right: 20px;
+    width: 22%;
+    height: 75%;
+    text-align: left;
+    margin-top: 9%;
+    background-color: white;
+     transition: transform .2s; /* Animation*/
+  }
+  .comp6-four:hover{
+    background-color: white;
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .comp6-four img{
+    margin-top: 10px;
+    width: 70%;
+    height: 200px;
+    
+  }
+  .comp6-four h6{
+    margin-left: 10px;
+    color: rgb(0, 149, 255);
+  }
+  .comp6-four p{
+    margin-left: 10px;
+  }
+  .comp6-four button{
+    margin-left: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 5px;
+  }
+  .comp6-four h4{
+    margin-left: 10px;
+  }
+  .comp6-four span{
+    color: green;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    font-weight: bold;
+  }
+
+  /*------------------------------- Cart2--------------------------- */
+
+  .Comp7{
+    display: flex;
+  }
+
+  .comp6-first1{
+    border: 1px solid white;
+    margin: 20px;
+    width: 22%;
+    height: 90%;
+    text-align: left;
+    margin-left: 40px;
+    background-color: white;
+    transition: transform .2s; /* Animation*/
+  }
+  .comp6-first1:hover{
+    background-color: white;
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .comp6-first1 img{
+    margin-top: 10px;
+    width: 70%;
+    height: 200px;
+    
+  }
+  .comp6-first1 h6{
+    margin-left: 10px;
+    color: rgb(0, 149, 255);
+  }
+  .comp6-first1 p{
+    margin-left: 10px;
+  }
+  .comp6-first1 button{
+    margin-left: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 5px;
+  }
+  .comp6-first1 h4{
+    margin-left: 10px;
+  }
+  .comp6-first1 span{
+    color: green;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    font-weight: bold;
+  }
+  /* second1 */
+  .comp6-second1{
+    border: 1px solid white;
+    margin-right: 20px;
+    width: 22%;
+    height: 90%;
+    margin-top: 20px;
+    text-align: left;
+    background-color: white;
+    transition: transform .2s; /* Animation*/
+  }
+  .comp6-second1:hover{
+    background-color: white;
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .comp6-second1 img{
+    margin-top: 10px;
+    width: 70%;
+    height: 200px;
+    
+  }
+  .comp6-second1 h6{
+    margin-left: 10px;
+    color: rgb(0, 149, 255);
+  }
+  .comp6-second1 p{
+    margin-left: 10px;
+  }
+  .comp6-second1 button{
+    margin-left: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 5px;
+  }
+  .comp6-second1 h4{
+    margin-left: 10px;
+  }
+  .comp6-second1 span{
+    color: green;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    font-weight: bold;
+  }
+  /* third1 */
+  .comp6-third1{
+    border: 1px solid white;
+    margin-right: 20px;
+    width: 22%;
+    height: 90%;
+    margin-top: 20px;
+    text-align: left;
+    background-color: white;
+    transition: transform .2s; /* Animation*/
+  }
+  .comp6-third1:hover{
+    background-color: white;
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .comp6-third1 img{
+    margin-top: 10px;
+    width: 70%;
+    height: 200px;
+    
+  }
+  .comp6-third1 h6{
+    margin-left: 10px;
+    color: rgb(0, 149, 255);
+  }
+  .comp6-third1 p{
+    margin-left: 10px;
+  }
+  .comp6-third1 button{
+    margin-left: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 5px;
+  }
+  .comp6-third1 h4{
+    margin-left: 10px;
+  }
+  .comp6-third1 span{
+    color: green;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    font-weight: bold;
+  }
+  /* fourth1*/
+  .comp6-four1{
+    border: 1px solid white;
+    margin-right: 20px;
+    width: 22%;
+    height: 90%;
+    margin-top: 20px;
+    text-align: left;
+    background-color: white;
+    transition: transform .2s; /* Animation*/
+  }
+  .comp6-four1:hover{
+    background-color: white;
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .comp6-four1 img{
+    margin-top: 10px;
+    width: 70%;
+    height: 200px;
+    
+  }
+  .comp6-four1 h6{
+    margin-left: 10px;
+    color: rgb(0, 149, 255);
+  }
+  .comp6-four1 p{
+    margin-left: 10px;
+  }
+  .comp6-four1 button{
+    margin-left: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 5px;
+  }
+  .comp6-four1 h4{
+    margin-left: 10px;
+  }
+  .comp6-four1 span{
+    color: green;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    font-weight: bold;
+  }
